@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.MyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/circle_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                app:ci_drawable="@color/Orange"
+                app:ci_drawable_unselected="@color/Gray" />
+
+            <TextView
+                android:id="@+id/lbTinhYeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#EAEAEA"
+                android:padding="10dp"
+                android:text="Truyện tình yêu >>"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvTinhYeu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/lbTruyenGiaDinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#EAEAEA"
+                android:padding="10dp"
+                android:text="Truyện gia đình >>"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvGiaDinh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/lbTruyenKinhDi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#EAEAEA"
+                android:padding="10dp"
+                android:text="Truyện kinh dị >>"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvKinhDi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

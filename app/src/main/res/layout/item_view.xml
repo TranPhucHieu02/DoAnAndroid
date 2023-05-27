@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardItem"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/imageTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/anhdemo"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/textTenTruyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:text="Ten Truyen"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

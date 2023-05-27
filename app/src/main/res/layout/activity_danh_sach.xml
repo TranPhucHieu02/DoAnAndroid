@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDS"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#EDDFDF">
+        <TextView
+            android:id="@+id/textTitleTheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten thể loại"
+            android:textSize="25dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"/>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvDSTruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DoAn</string>
+    <string name="menu_trangchu">Trang chủ</string>
+    <string name="menu_canhan">Cá nhân</string>
+    <string name="menu_theloai">Thể loại</string>
+    <string name="menu_yeuthich">Yêu thích</string>
+    <string name="menu_caidat">Cài đặt</string>
+    <string name="menu_doimatkhau">Đổi mật khẩu</string>
+    <string name="menu_thongtincanhan">Thay đổi thông tin</string>
+    <string name="menu_dangxuat">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_fragment">Name Fragment</string>
+    <string name="title_activity_dang_nhap">DangNhapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dang_ky">DangKyActivity</string>
+</resources>

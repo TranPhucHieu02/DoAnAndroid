@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@color/Silver">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/Red"
+                android:text="ĐẶT MẬT KHẨU"/>
+
+            <EditText
+                android:id="@+id/textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:background="@drawable/custom_edit_text"
+                android:drawableEnd="@drawable/eye_off"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Password"/>
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:background="@drawable/custom_edit_text"
+                android:drawableEnd="@drawable/eye_off"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Confirm Password"/>
+            <Button
+                android:id="@+id/buttonXacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Xác nhận"
+                android:layout_marginTop="25dp"
+                app:cornerRadius="20dp"
+                android:backgroundTint="@color/Orange"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

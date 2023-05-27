@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/doimatkhau"
+        android:title="@string/menu_doimatkhau" />
+    <item android:id="@+id/doithongtin"
+        android:title="@string/menu_thongtincanhan" />
+    <item android:id="@+id/dangxuat"
+        android:title="@string/menu_dangxuat"/>
+</menu>
